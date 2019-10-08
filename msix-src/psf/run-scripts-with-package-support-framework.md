@@ -34,6 +34,7 @@ Here are the locations of each executable.
   * 32-bit executable: %SystemRoot%\system32\WindowsPowerShell\v1.0\powershell.exe
 
 For more information about PowerShell execution policies, see [this article](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/about/about_execution_policies?view=powershell-6).
+Make sure to include the following "StartingScriptWrapper.ps1" from the package support framework NuGet (https://www.nuget.org/packages/Microsoft.PackageSupportFramework/) to enable scripts.
 
 ## Enable scripts
 
